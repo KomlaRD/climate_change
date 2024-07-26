@@ -1,4 +1,4 @@
-# Juderic Retail Dashboard
+# Climate Metrics Dashboard
 
 ## Instruction to install anaconda
 
@@ -28,18 +28,6 @@ conda activate preferred_name
 ```bash
 pip install -r requirements.txt
 ```
-
-OR install the packages below using pip. For example, pip install shiny
-
-### Packages
-
-- faicons
-- shiny
-- matplotlib
-- pandas
-- datetime
-- statsmodels
-- openpyxl
 
 ## Run shiny app on the command line
 
