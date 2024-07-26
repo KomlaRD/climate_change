@@ -9,12 +9,6 @@ from shared import app_dir, df
 # Shiny modules
 from shiny import reactive
 from shiny.express import input, render, ui
-# Time series forecasting
-from statsmodels.tsa.holtwinters import ExponentialSmoothing
-
-# Start and end dates
-start = datetime.date(2021, 1, 1)
-end = datetime.date(2022, 12, 1)
 
 # Title page
 ui.h1("Historical Emissions from Ghana, Rwanda, and Zimbabwe")
