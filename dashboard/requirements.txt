@@ -1,0 +1,5 @@
+faicons
+shiny
+matplotlib
+pandas
+datetime
